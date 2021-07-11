@@ -1,0 +1,16 @@
+#btn {
+  &-save {
+    padding: 0.75rem 0.35rem;
+    width: 100%;
+    background-color: $color-tertiary;
+    color: $color-neon;
+    border: 2px solid $color-neon;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: weight(bold);
+  }
+
+  &-save:hover {
+    background-color: lighten($color-tertiary, 10%);
+  }
+}
